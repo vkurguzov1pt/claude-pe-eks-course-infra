@@ -14,3 +14,8 @@ variable "project_name" {
     error_message = "Project name must be 3-21 chars, lowercase alphanumeric and hyphens, starting with a letter"
   }
 }
+
+variable "github_repo" {
+  description = "Github repo in format owner/repo"
+  type        = string
+}
